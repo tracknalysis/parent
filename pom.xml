@@ -24,9 +24,6 @@ Authors: David Valeri
   <version>1-SNAPSHOT</version>
   <packaging>pom</packaging>
   
-  <properties>
-    <notice.used.software>See META-INF/DEPENDENCIES</notice.used.software>
-  </properties>
   
   <name>Tracknalysis :: Parent</name>
   <description>Parent POM for software developed as part of the Tracknalysis project.</description>
@@ -86,6 +83,11 @@ Authors: David Valeri
       <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
     </repository>
   </distributionManagement>
+  
+  <properties>
+    <notice.used.software>See META-INF/DEPENDENCIES</notice.used.software>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
   
   <dependencies>
     <dependency>
